@@ -1,4 +1,4 @@
-### Opcode Listing (Version 0.0.1)
+### Opcode Listing (Version 0.0.3)
 
 #### Data Transfer Instructions
 | Opcode | Mnemonic | Type         | Format       |
@@ -53,7 +53,15 @@
 | 0x58   | PUSH     | Stack Operation  | `PUSH REG`           |
 | 0x59   | POP      | Stack Operation  | `POP REG`            |
 | 0x5A   | CALL     | Function Call    | `CALL FUNC`          |
-| 0x5B   | RET      | Funct.ion Return  | `RET`                |
+| 0x5B   | RET      | Function Return  | `RET`                |
+
+#### Process Transition Table
+| State | Input | Next State | Action       |
+|-------|-------|------------|--------------|
+| S0    | I0    | S1         | `ACTION1`    |
+| S1    | I1    | S2         | `ACTION2`    |
+| S2    | I2    | S3         | `ACTION3`    |
+| S3    | I3    | S0         | `ACTION4`    |
 
 ### Version Information
 - [Opcode Listing Version 0.0.1](#)
@@ -65,5 +73,6 @@
 - [Multiplication Transition Table - Version 0.0.1](#)
 - [Bitwise Operations - Version 0.0.1](#)
 - [Transition Table - Version 0.0.1](#)
+- [Process Transition Table - Version 0.0.1](#)
 
 Note: The URLs are placeholders and should be replaced with actual links where the code listings and versions are hosted.
