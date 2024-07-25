@@ -64,8 +64,6 @@
 | S3    | I3    | S0         | `ACTION4`    |
 
 ### Version Information
-- [Opcode Listing Version 0.0.1](#)
-- [Opcode Listing Version 0.0.2](#)
 - [Opcode Listing Version 0.0.3](#)
 
 ### Assembly Code Listings
