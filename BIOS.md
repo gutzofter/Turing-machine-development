@@ -1,3 +1,4 @@
+```
 ; BIOS version 0.0.1
 ; Define Port Access Instructions
 PORT_TAPE             EQU 0x01      ; Tape port
@@ -91,6 +92,7 @@ STATE_HALT_ROUTINE:
 HALT:
                        ; Halt the machine
                        ; This is a placeholder for the actual halt operation
+```
                        ; Implement the logic to halt the machine
                        RET
 
