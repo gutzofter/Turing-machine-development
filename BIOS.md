@@ -92,7 +92,6 @@ STATE_HALT_ROUTINE:
 HALT:
                        ; Halt the machine
                        ; This is a placeholder for the actual halt operation
-```
                        ; Implement the logic to halt the machine
                        RET
 
@@ -101,3 +100,4 @@ START_MULTIPLICATION:
                        ; This is a placeholder for the actual start operation
                        ; Implement the logic to start the multiplication program
                        RET
+```
