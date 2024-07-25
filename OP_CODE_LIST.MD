@@ -53,7 +53,17 @@
 | 0x58   | PUSH     | Stack Operation  | `PUSH REG`           |
 | 0x59   | POP      | Stack Operation  | `POP REG`            |
 | 0x5A   | CALL     | Function Call    | `CALL FUNC`          |
-| 0x5B   | RET      | Function Return  | `RET`                |
+| 0x5B   | RET      | Funct.ion Return  | `RET`                |
 
-### Notes
-- **C-Compliant Instructions** extend the TMD code to support operations commonly used in C programming, such as immediate values, bit shifting, and stack operations.
+### Version Information
+- [Opcode Listing Version 0.0.1](#)
+- [Opcode Listing Version 0.0.2](#)
+- [Opcode Listing Version 0.0.3](#)
+
+### Assembly Code Listings
+- [Basic Input/Output System (BIOS) - Version 0.0.1](#)
+- [Multiplication Transition Table - Version 0.0.1](#)
+- [Bitwise Operations - Version 0.0.1](#)
+- [Transition Table - Version 0.0.1](#)
+
+Note: The URLs are placeholders and should be replaced with actual links where the code listings and versions are hosted.
