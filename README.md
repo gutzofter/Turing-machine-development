@@ -1,41 +1,26 @@
-# Turing-machine-development
-### Status Update
+### **Status Update (Version 0.2.8)**
 
-**Version: 0.1.2**
+**Overview:**
+- Current focus: Developing Turing Machine Development (TMD) system from initial design to integrated circuit (IC) fabrication.
 
-**Discussion: Approximately 15 minutes**
-
-**Conversation: Approximately 5 hours and 45 minutes**
-
-**Overview**
-
-- **Previous Topics:**
-  1. Computation vs. Data Storage
-  2. Pseudocode Development
-  3. Code Organization
-  4. Versioning
-  5. Conversion and Execution
-  6. Additional Tasks
-  7. User Contributions
-
-- **New Topics:**
-  1. Denoting New Discussions
-  2. Action Items Updates
-  3. Code Samples
-  4. Pending
-
-**Pending Topics and Subtopics:**
-1. **Implementing Changes and Adding Version Numbers in Pseudocode**
-   - Ensure version numbers are incremented with each code change.
-   - Add comments with version numbers in pseudocode.
-
-2. **Setting Up ANSI Codes for Terminal Communication**
-   - Configure ANSI codes for colored text in terminal.
-   - Ensure compatibility with 16-bit machine and terminal interfaces.
+**Topics:**
+1. **Finite Automata and Logic Gates:** Transition tables for different bit sizes converted to logic gates and Verilog.
+2. **LUT Calculations:** Calculated LUTs for various bit-sized state machines.
+3. **TMD Assembly for Sine Wave Processing:** Created BIOS and library calls in TMD assembly.
+4. **Library Design Principles:** Implemented single responsibility principle in TMD code for sine wave and DAC libraries.
+5. **High-Speed Bus Research:** Task added to research high-speed buses for running multiple processors on the same silicon.
 
 **Action Items:**
-1. **Build Debugger in Pseudocode**
-2. **Instrument Debugger**
-3. **Add ANSI Codes to a Port for Terminal Communication**
-4. **Add Unit Testing Instrumentation for Debugger**
-5. **Build Turing Machine Emulator at the IC Level**
+
+- **Research:**
+  1. Research high-speed buses to support multiple processors on the same silicon. *(Status: New)*
+
+- **Development:**
+  1. Implement generalized function for initializing on-chip memory in BIOS. *(Status: New)*
+  2. Continue modular development of TMD system. *(Status: New)*
+
+- **Code Refactoring:**
+  1. Develop TMD code listings with modular design for different functionalities. *(Status: New)*
+
+- **Documentation:**
+  1. Finalize generalized initialization function for on-chip memory loading. *(Status: New)*
