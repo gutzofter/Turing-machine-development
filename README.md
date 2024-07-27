@@ -1,6 +1,11 @@
-### **Status Update (Version 0.4.2)**
+Here’s the updated status update including the latest version of the action items list:
+
+---
+
+### **Status Update (Version 0.4.7)**
 
 **Code Listings:**
+
 1. **Basic Input/Output System (BIOS)**
    - **Version:** 0.0.1
    - **Filename:** `bios.asm`
@@ -110,14 +115,15 @@
    ```
 
 **Topics:**
+
 1. **Building an Assembler:**
    - Using Python on a Linux server to generate machine language.
    - Creating an assembler that converts assembly code into machine language.
-   
+
 2. **Simulating BIOS and OS:**
    - Simulating BIOS and OS on a Python server.
    - Loading BIOS and OS via specific ports and API calls.
-   
+
 3. **FPGA Simulation:**
    - Using QEMU FPGA for simulations with 1000 LUTs.
    - Developing hardware components and instruction sets.
@@ -125,36 +131,33 @@
 4. **Interrupt Handling:**
    - Comparing Intel 286 and ESP32 interrupt handling.
    - Implementing ESP32-style interrupts in the TMD system.
-   
+
 5. **File System Development:**
    - Creating a basic operating system and file system.
    - Managing data storage and interrupts.
-   
+
 6. **YouTube Content Creation:**
    - Developing scripts for YouTube to showcase TMD project progress.
    - Using ad revenue and donations to fund the project.
 
-**Action Items:**
-- **Research High-Speed Buses:** Investigate high-speed buses for running multiple processors on the same silicon. Status: New
-- **Develop YouTube Script:** Create content for the YouTube channel including topics from the TMD project. Status: New
-- **Simulate BIOS and OS in Python:** Load and simulate BIOS and OS on a Python server. Status: New
-- **Implement File System:** Develop a basic file system to manage data storage and interrupts. Status: New
-- **QEMU FPGA Simulation:** Start with QEMU FPGA simulation with a limit of 1000 LUTs. Status: New
-- **Build Assembler:** Create an assembler to convert assembly code into machine language. Status: New
-- **Load BIOS and OS:** Implement code to load BIOS and OS via specific ports and API calls. Status: New
-- **Manage Interrupts:** Compare and implement interrupt handling mechanisms from Intel 286 and ESP32. Status: New
-- **Transition Table Development:** Develop transition tables for state management in assembly code. Status: New
-- **Handle Bitwise Operations:** Implement bitwise operations in assembly code. Status: New
-- **Multiplication Transition Table:** Create a multiplication transition table in assembly code. Status: New
-- **Develop TMD Road Map:** Outline the development road map for the TMD system. Status: New
-- **Implement High-Speed Data Bus:** Research and implement high-speed data bus for the TMD system. Status: New
+**Action Items List (Version 0.1.1):**
 
-### **Version History**
+**Development:**
+1. **[Working]** Develop YouTube script
+2. Simulate BIOS and OS in Python
+3. Implement file system
+4. QEMU FPGA simulation
+5. Build assembler
+6. Load BIOS and OS
+7. Manage interrupts
+8. Transition table development
+9. Handle bitwise operations
+10. Multiplication transition table
+11. Develop TMD road map
 
-1. **Version 0.2.2** (Archived)
-2. **Version 0.3** (Archived)
-3. **Version 0.4.0** (Archived)
-4. **Version 0.4.1** (Archived)
-5. **Version 0.4.2** (Active)
+**Research:**
+1. Implement high-speed data bus
 
-All previous versions are archived. This version includes the latest updates and all current action items. Let me know if any more changes are needed!
+---
+
+Would you like to display this update, or do you want to make further changes?
